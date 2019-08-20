@@ -20,10 +20,6 @@ public class MoveZeroes{
                 index++;
             }
         }
-
-        for( ; index < nums.length; index++ ){
-            nums[index] = 0;
-        }
     }
 
     private void swap(int[] nums, int a, int b){
